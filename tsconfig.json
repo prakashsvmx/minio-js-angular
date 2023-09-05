@@ -28,6 +28,30 @@
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
-    "strictTemplates": true
+    "strictTemplates": true,
+    "paths": {
+      "stream":[
+        "./node_modules/stream-browserify"
+      ],
+      "crypto": [
+        "./node_modules/crypto-browserify"
+      ],
+      "path": [
+        "./node_modules/path-browserify"
+      ],
+      "https": [
+        "./node_modules/https-browserify"
+      ],
+      "http": [
+        "./node_modules/stream-http"
+      ],
+      "timers": [
+        "./node_modules/timers-browserify"
+      ],
+      "fs": ["./node_modules/fs"],
+      "process": ["./node_modules/process/"],
+      "buffer":["./node_modules/buffer/"],
+    
+    }
   }
 }

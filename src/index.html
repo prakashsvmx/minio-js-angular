@@ -10,4 +10,16 @@
 <body>
   <app-root></app-root>
 </body>
+<script>
+  if (global === undefined) {
+    var global = window;
+  }
+  if (process === undefined) {
+    var process = {env:{
+      NODE_DEBUG:false
+    }};
+  }
+ window.Buffer = window.Buffer ||{}
+
+</script>
 </html>

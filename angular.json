@@ -32,7 +32,8 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [],
+            "allowedCommonJsDependencies":["path","stream","block-stream2","xml","xml2js","query-string","lodash"]
           },
           "configurations": {
             "production": {
